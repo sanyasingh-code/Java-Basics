@@ -1,0 +1,31 @@
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        int arr1[][] = {{1, 2},{3, 4}};
+        int arr2[][] = {{5, 6},{7, 8}};
+        int mul[][] = new int[2][2];
+
+        for(int i = 0; i < 2; i++)
+        {
+            for(int j = 0; j < 2; j++)
+            {
+                for(int k = 0; k < 2; k++)
+                {
+                    mul[i][j] += arr1[i][k] * arr2[k][j];
+                }
+            }
+        }
+
+        System.out.println("Multiplication of matrices:");
+        for(int i = 0; i < 2; i++)
+        {
+            for(int j = 0; j < 2; j++)
+            {
+                System.out.print(mul[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
