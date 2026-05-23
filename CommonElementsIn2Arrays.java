@@ -5,7 +5,7 @@ class Main
     {
         int arr1[] = {2, 4, 6, 8, 10};
         int arr2[] = {2, 6, 7, 4, 3};
-        System.out.println("Common Elements Between Two Array: ");
+        System.out.println("Common Elements Between Two Arrays: ");
         
         for(int i=0; i<arr1.length; i++)
         {
