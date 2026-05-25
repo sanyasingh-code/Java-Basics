@@ -18,7 +18,7 @@ class Main
                 vowel++;
             }
         }
-        System.out.print("Number of Vowels: " + vowel);
+        System.out.println("Number of Vowels: " + vowel);
     }
 }
         
